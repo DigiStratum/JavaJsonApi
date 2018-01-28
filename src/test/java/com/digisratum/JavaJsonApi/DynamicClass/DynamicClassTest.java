@@ -1,4 +1,4 @@
-package com.digistratum.JavaJsonApi.DynamicClass;
+package com.digisratum.JavaJsonApi.DynamicClass;
 
 import com.digistratum.JavaJsonApi.DynamicClass.DynamicClass;
 import com.digistratum.JavaJsonApi.Exception.JsonApiException;

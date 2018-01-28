@@ -7,7 +7,6 @@ import com.digistratum.JavaJsonApi.DynamicClass.Meta;
 import com.digistratum.JavaJsonApi.Exception.JsonApiException;
 import com.digistratum.JavaValidation.Validatable;
 
-import java.lang.Error;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -37,7 +36,7 @@ public class Document implements JsonSerializeable, Validatable {
 		/**
 		 * An array of error objects
 		 */
-		public List<java.lang.Error> errors;
+		public List<Error> errors;
 
 		/**
 		 * A meta object that contains non-standard meta-information.

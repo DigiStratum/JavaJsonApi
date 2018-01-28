@@ -69,7 +69,8 @@ public class DocumentTest {
 		assertThrows(
 				JsonApiException.class,
 				() -> {
-					sut.addError(new Error()).addResource(new Resource("data","type"));
+					Error error = new Error();
+					sut.addError(error).addResource(new Resource("data","type"));
 				}
 		);
 	}

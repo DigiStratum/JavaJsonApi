@@ -4,6 +4,7 @@ import com.digistratum.JavaJson.Json;
 import com.digistratum.JavaJson.JsonSerializeable;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * JsonApi - Resources
